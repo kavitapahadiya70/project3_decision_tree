@@ -28,7 +28,7 @@ def main():
     html_temp = """
       <body style="background-color:Tan;">
        </body>
-   <div class="" style="background-color:pink; >
+   <div class="" style="background-color:yellow; >
    <div class="clearfix">           
    <div class="col-md-12">
    <center><p style="font-size:40px;color:black;margin-top:10px;">Poornima Group Of Institution</p></center> 
@@ -54,7 +54,7 @@ def main():
       result=predict_note_authentication(UserID, Gender,Age,EstimatedSalary)
       st.success('Model has predicted {}'.format(result))
     if st.button("About Us"):
-      st.subheader("Developed by Neha Khatri")
+      st.subheader("Developed by KAVITA PAHADIYA")
       st.subheader("Student of Computer Engineering")
 
 if __name__=='__main__':
